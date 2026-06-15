@@ -1,0 +1,124 @@
+# mENACT .gitignore
+# Aligned with release/contract.json → channel_boundaries
+
+# --- restricted_mp4 + bulk_data (Zenodo R0/R1–R3; not on GitHub) ---
+*.mp4
+data/**/*
+!data/README.md
+!data/README_zh.md
+!data/subject_data_inventory.csv
+!data/Brodmann_ROI.csv
+
+# --- manuscript (local paper workspace) ---
+manuscript/
+
+# --- Third-party toolboxes (install locally; see docs/install.md) ---
+code/utils/Homer3-*/
+code/utils/fieldtrip-*/
+
+# --- Editor / Python cache ---
+__pycache__/
+*.pyc
+.DS_Store
+.cursor/
+.vscode/
+
+# --- run_logs ---
+logs/
+
+# ---------------------------------------------------------------------------
+# results/: manuscript-cited artifacts only (reader_engineering whitelist)
+# Figures as PDF; no PNG duplicates, logs, caches, LOSO intermediates, predictions
+# ---------------------------------------------------------------------------
+results/**/*
+!results/validation_traits/
+!results/validation_selfreport/
+!results/validation_speech/
+!results/validation_fnirs_quality/
+!results/validation_fnirs_decoding/
+
+results/manuscript_analysis_*/
+
+# --- validation_traits ---
+results/validation_traits/**/*
+!results/validation_traits/tables/
+!results/validation_traits/tables/tab_trait_demographics_scales_group_tests_tabular.tex
+!results/validation_traits/figures/
+!results/validation_traits/figures/*.pdf
+!results/validation_traits/data/
+!results/validation_traits/data/trait_group_summary_table.csv
+!results/validation_traits/data/ecs_case_subject_ids.csv
+
+# --- validation_selfreport ---
+results/validation_selfreport/**/*
+!results/validation_selfreport/tables/
+!results/validation_selfreport/tables/tab_appendix_selfreport_aux_dims_by_task_target_tabular.tex
+!results/validation_selfreport/figures/
+!results/validation_selfreport/figures/*.pdf
+!results/validation_selfreport/data/
+!results/validation_selfreport/data/selfreport_dominance_fdr_by_task.csv
+!results/validation_selfreport/data/selfreport_performance_intention_gt_experience_fdr.csv
+!results/validation_selfreport/data/selfreport_performance_gap_group_anova.csv
+!results/validation_selfreport/data/selfreport_performance_gap_group_tukey.csv
+
+# --- validation_speech ---
+results/validation_speech/**/*
+!results/validation_speech/tables/
+!results/validation_speech/tables/tab_speech_cross_speaker_valence3_acc_f1_tabular.tex
+!results/validation_speech/tables/tab_speech_cross_speaker_emotion9_acc_f1_tabular.tex
+!results/validation_speech/tables/tab_speech_cross_mode_valence3_acc_f1_tabular.tex
+!results/validation_speech/tables/tab_speech_cross_mode_emotion9_acc_f1_tabular.tex
+!results/validation_speech/figures/
+!results/validation_speech/figures/*.pdf
+!results/validation_speech/data/
+!results/validation_speech/data/permutation_tests/
+!results/validation_speech/data/permutation_tests/speech_permutation_summary.csv
+
+# --- validation_fnirs_quality ---
+results/validation_fnirs_quality/**/*
+!results/validation_fnirs_quality/figures/
+!results/validation_fnirs_quality/figures/*.pdf
+!results/validation_fnirs_quality/tables/
+!results/validation_fnirs_quality/tables/table_fnirs_quality_sci_global_summary.csv
+!results/validation_fnirs_quality/tables/table_fnirs_quality_sci_wilcoxon.csv
+
+# --- validation_fnirs_decoding ---
+results/validation_fnirs_decoding/**/*
+!results/validation_fnirs_decoding/figures/
+!results/validation_fnirs_decoding/figures/*.pdf
+!results/validation_fnirs_decoding/tables/
+!results/validation_fnirs_decoding/tables/table_fnirs_decoding_valence3_summary_main.tex
+!results/validation_fnirs_decoding/tables/table_fnirs_decoding_valence3_perclass_main.tex
+!results/validation_fnirs_decoding/tables/table_fnirs_decoding_emotion9_summary_appendix.tex
+!results/validation_fnirs_decoding/tables/table_fnirs_decoding_emotion9_perclass_appendix.tex
+!results/validation_fnirs_decoding/tables/table_fnirs_decoding_friedman_macro_f1.csv
+!results/validation_fnirs_decoding/data/
+!results/validation_fnirs_decoding/data/fnirs_decoding_permutation_summary.csv
+!results/validation_fnirs_decoding/data/table_fnirs_decoding_valence3_main_breakdown.csv
+!results/validation_fnirs_decoding/data/table_fnirs_decoding_emotion9_appendix_multiclass.csv
+
+# ---------------------------------------------------------------------------
+# Reader docs (GitHub) — tracked, not ignored:
+#   docs/downloads.md, docs/assembly.md, docs/use_cases/, docs/access_request.md, …
+# Reader scripts — tracked: scripts/assemble_dataset.ps1, restore_restricted.ps1,
+#   verify_layout.ps1, apply_homer3_patches.ps1
+# ---------------------------------------------------------------------------
+
+# --- maintainer_ssot + packaging_tools + build_artifacts ---
+release/
+scripts/release/
+_upload/
+*.zip.part*
+
+# --- Author-only / temporary code ---
+code/validation_speech_hyperparam_search_temp.py
+scripts/temp/
+
+# --- Logo variants (local design exploration; primary tracked: docs/assets/menact_logo.png, .github/menact_logo.png) ---
+docs/assets/menact_logo_[a-z].png
+docs/assets/menact_logo_versions_*.png
+docs/assets/menact_brain_icon_draft.png
+docs/assets/menact_brain_icon_*_draft.png
+
+# --- restricted_scripts_source (zenodo-r4; merge target experiments/stimuli_exp3/) ---
+experiments/stimuli_exp3/*/*.txt

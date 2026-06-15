@@ -1,0 +1,7 @@
+﻿# Normalize line endings for cross-platform clones
+* text=auto
+*.ps1 text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.md text eol=lf

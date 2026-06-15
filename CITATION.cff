@@ -1,0 +1,31 @@
+﻿cff-version: 1.2.0
+message: >-
+  If you use mENACT, please cite this record. Code in code/ is MIT-licensed;
+  data files in data/ are CC BY-NC 4.0 unless noted otherwise.
+title: "mENACT: Multimodal Expression-centered Neurophysiological Affective Computing Tasks"
+type: dataset
+version: 1.0.0
+doi: 10.5281/zenodo.20707429
+date-released: 2026-06-18
+authors:
+  - family-names: Li
+    given-names: Ming
+    orcid: https://orcid.org/0000-0002-5117-1577
+  - family-names: Liu
+    given-names: Sihan
+  - family-names: Wu
+    given-names: Yuhong
+  - family-names: Huang
+    given-names: Minzhi
+  - family-names: Zhang
+    given-names: Dan
+    orcid: https://orcid.org/0000-0002-7592-3200
+repository-code: "https://github.com/BAK262/mENACT"
+license:
+  - MIT
+  - CC-BY-NC-4.0
+keywords:
+  - fNIRS
+  - affective computing
+  - emotion expression
+  - dataset

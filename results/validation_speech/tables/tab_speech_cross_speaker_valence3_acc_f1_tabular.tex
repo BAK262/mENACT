@@ -1,0 +1,11 @@
+\begin{tabular}{lcccc}
+\toprule
+Feature & \multicolumn{2}{c}{Production} & \multicolumn{2}{c}{Performance} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & Acc & F1 & Acc & F1 \\
+\midrule
+eGeMAPS & 0.37 (0.33, 0.42) & 0.33 (0.28, 0.36) & 0.41 (0.37, 0.46) & 0.38 (0.33, 0.43) \\
+HuBERT & 0.44 (0.40, 0.49) & 0.37 (0.33, 0.41) & 0.50 (0.45, 0.56) & 0.44 (0.39, 0.49) \\
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\scriptsize\textit{Note.} Acc = pooled accuracy; F1 = pooled Macro-$F_1$; 95\% bootstrap CI in parentheses (trial-level resampling). Classification: 3-class valence (negative, neutral, positive). Evaluation: cross-speaker evaluation with 5-fold subject-grouped cross-validation within each expressive mode. Spontaneous Production $N=46$; Deliberate Performance $N=47$ (participants with released speech recordings per task).

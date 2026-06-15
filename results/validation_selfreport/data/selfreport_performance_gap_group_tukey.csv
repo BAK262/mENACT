@@ -1,0 +1,4 @@
+group_high,group_low,mean_diff,p_adj,ci_low,ci_high,significant
+Non-actor,Amateur,9.9466,0.0214,1.2506,18.6425,True
+Amateur,Professional,-2.0312,0.8397,-10.7272,6.6647,False
+Non-actor,Professional,-11.9778,0.0025,-20.1462,-3.8094,True

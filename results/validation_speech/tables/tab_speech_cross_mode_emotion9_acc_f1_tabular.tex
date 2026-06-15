@@ -1,0 +1,11 @@
+\begin{tabular}{lcccccc}
+\toprule
+Feature & \multicolumn{2}{c}{All} & \multicolumn{2}{c}{Actors} & \multicolumn{2}{c}{Non-actor} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+ & Acc & F1 & Acc & F1 & Acc & F1 \\
+\midrule
+eGeMAPS & 0.18 (0.14, 0.21) & 0.17 (0.13, 0.20) & 0.20 (0.16, 0.25) & 0.19 (0.14, 0.23) & 0.15 (0.09, 0.21) & 0.12 (0.07, 0.18) \\
+HuBERT & 0.19 (0.15, 0.22) & 0.17 (0.14, 0.20) & 0.18 (0.14, 0.23) & 0.16 (0.12, 0.20) & 0.19 (0.13, 0.27) & 0.16 (0.09, 0.22) \\
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\scriptsize\textit{Note.} Acc = pooled accuracy; F1 = pooled Macro-$F_1$; 95\% bootstrap CI in parentheses (trial-level resampling). Classification: 9-category discrete emotion. Evaluation: cross-mode evaluation (Deliberate Performance $\rightarrow$ Spontaneous Production). trained on Deliberate Performance ($N=47$) and evaluated on Spontaneous Production test recordings ($N=46$ participants, 387 trials; within-subject pairing where both tasks are released). Actors and Non-actors subdivide the pooled Production test predictions without retraining.

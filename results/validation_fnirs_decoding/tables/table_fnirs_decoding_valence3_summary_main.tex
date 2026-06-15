@@ -1,0 +1,10 @@
+\begin{tabularx}{\textwidth}{l>{\centering\arraybackslash}X>{\centering\arraybackslash}X}
+\toprule
+Task & Accuracy & Macro-F1 \\
+\midrule
+Perception & 0.479 (0.454, 0.502) & 0.480 (0.456, 0.505) \\
+Production & 0.526 (0.481, 0.572) & 0.519 (0.468, 0.567) \\
+Performance & 0.484 (0.438, 0.526) & 0.476 (0.428, 0.521) \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\noindent\scriptsize\textit{Note.} Tasks: Perception, Production, and Performance. Accuracy = pooled accuracy; Macro-$F_1$ = macro-averaged $F_1$; 95\% bootstrap CI in parentheses (subject-level resampling). Classification: 3-class valence (negative, neutral, positive). Evaluation: leave-one-subject-out cross-validation ($N=53$).

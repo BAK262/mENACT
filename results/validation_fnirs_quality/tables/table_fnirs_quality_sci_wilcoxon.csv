@@ -1,0 +1,11 @@
+region,comparison,comparison_label,n_subjects,p_value,method
+L-F,perception_gt_production,Perception>Production,53,6.4305068671964255e-09,wilcoxon_signed_rank_greater
+L-F,production_gt_performance,Production>Performance,53,0.002610703319689473,wilcoxon_signed_rank_greater
+M-F,perception_gt_production,Perception>Production,53,4.1589017907897913e-05,wilcoxon_signed_rank_greater
+M-F,production_gt_performance,Production>Performance,53,0.02021077537262204,wilcoxon_signed_rank_greater
+R-F,perception_gt_production,Perception>Production,53,1.2432784588952213e-09,wilcoxon_signed_rank_greater
+R-F,production_gt_performance,Production>Performance,53,0.00037792359988393865,wilcoxon_signed_rank_greater
+L-T,perception_gt_production,Perception>Production,53,2.1821917335844095e-08,wilcoxon_signed_rank_greater
+L-T,production_gt_performance,Production>Performance,53,0.012991348023874043,wilcoxon_signed_rank_greater
+R-T,perception_gt_production,Perception>Production,53,1.6286755052877316e-09,wilcoxon_signed_rank_greater
+R-T,production_gt_performance,Production>Performance,53,0.0025401308935521904,wilcoxon_signed_rank_greater

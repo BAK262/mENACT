@@ -1,0 +1,55 @@
+id,group,perception_fnirs,perception_rating,production_fnirs,production_mp4,production_rating,performance_fnirs,performance_mp4,performance_rating,notes
+1,amateur,28,28,9,9,9,9,9,9,
+2,general,28,28,9,0,9,9,0,9,No participant MP4s shared
+3,professional,28,28,9,9,9,9,9,9,
+4,amateur,28,28,9,9,9,9,9,9,
+5,amateur,28,28,9,9,9,9,9,9,
+6,professional,28,28,9,9,9,9,9,9,
+7,professional,28,28,9,8,9,9,9,9,Production disgust MP4 not shared; Production disgust enactment script not shared
+8,amateur,28,28,9,9,9,9,9,9,
+9,general,28,28,9,9,9,9,9,9,
+10,professional,28,28,7,0,7,9,0,9,No participant MP4s shared; Production: 2 retrieval failure(s)
+11,amateur,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+12,amateur,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+13,professional,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+14,amateur,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+15,professional,28,28,9,0,9,9,0,9,No participant MP4s shared
+16,professional,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+17,professional,28,28,9,0,9,9,9,9,No Production MP4s shared; No enactment scripts shared
+18,professional,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+19,professional,28,28,9,9,9,9,9,9,
+20,general,28,28,8,0,8,9,0,9,No Production or Performance MP4s shared; enactment scripts shared; Production: 1 retrieval failure(s)
+21,professional,28,28,9,9,9,9,9,9,
+22,general,28,28,9,9,9,9,9,9,
+23,amateur,28,28,9,9,9,9,9,9,
+24,professional,28,28,6,6,6,9,9,9,Production: 3 retrieval failure(s)
+25,amateur,28,28,9,9,9,9,9,9,
+26,amateur,26,26,7,7,7,9,9,9,Perception: 2 clip(s) early-terminated before full viewing; Production: 2 retrieval failure(s)
+27,amateur,28,28,7,7,7,9,9,9,Production: 2 retrieval failure(s)
+28,professional,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+29,professional,28,28,6,6,6,9,9,9,Production: 3 retrieval failure(s)
+30,professional,28,28,9,9,9,9,9,9,
+31,professional,28,28,9,18,18,9,9,9,Production: session repeated (2 completed sessions in release)
+32,general,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+33,professional,28,28,8,0,8,9,0,9,No participant MP4s shared; Production: 1 retrieval failure(s)
+34,amateur,28,28,9,9,9,9,9,9,
+35,general,28,28,7,7,7,9,9,9,Production: 2 retrieval failure(s)
+36,general,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+37,amateur,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+38,general,28,28,9,9,9,9,9,9,
+39,general,28,28,8,0,8,9,0,9,No participant MP4s shared; Production: 1 retrieval failure(s)
+40,amateur,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+41,professional,27,27,8,8,8,9,9,9,Perception: 27/28 clips administered; Production: 1 retrieval failure(s)
+42,professional,28,28,9,9,9,9,9,9,
+43,amateur,28,28,9,9,9,9,9,9,
+44,general,28,28,9,9,9,9,9,9,
+45,general,28,28,7,7,7,9,9,9,Production: 2 retrieval failure(s)
+46,general,28,28,6,6,6,9,9,9,Production: 3 retrieval failure(s)
+47,general,28,28,9,9,9,9,9,9,
+48,general,26,26,8,8,8,9,9,9,Perception: 2 clip(s) early-terminated before full viewing; Production: 1 retrieval failure(s)
+49,general,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+50,general,28,28,9,9,9,9,9,9,
+51,general,28,28,7,7,7,9,9,9,Production: 2 retrieval failure(s)
+52,general,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+53,general,28,28,8,8,8,9,9,9,Production: 1 retrieval failure(s)
+TOTAL,,1479,1479,437,387,446,477,423,477,Column sums

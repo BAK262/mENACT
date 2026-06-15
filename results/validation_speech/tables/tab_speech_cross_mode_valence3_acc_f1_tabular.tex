@@ -1,0 +1,11 @@
+\begin{tabular}{lcccccc}
+\toprule
+Feature & \multicolumn{2}{c}{All} & \multicolumn{2}{c}{Actors} & \multicolumn{2}{c}{Non-actor} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+ & Acc & F1 & Acc & F1 & Acc & F1 \\
+\midrule
+eGeMAPS & 0.34 (0.29, 0.38) & 0.32 (0.27, 0.36) & 0.36 (0.30, 0.41) & 0.35 (0.29, 0.39) & 0.29 (0.21, 0.36) & 0.25 (0.18, 0.30) \\
+HuBERT & 0.45 (0.40, 0.51) & 0.39 (0.34, 0.45) & 0.48 (0.42, 0.55) & 0.42 (0.36, 0.49) & 0.39 (0.30, 0.48) & 0.32 (0.24, 0.39) \\
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\scriptsize\textit{Note.} Acc = pooled accuracy; F1 = pooled Macro-$F_1$; 95\% bootstrap CI in parentheses (trial-level resampling). Classification: 3-class valence (negative, neutral, positive). Evaluation: cross-mode evaluation (Deliberate Performance $\rightarrow$ Spontaneous Production). trained on Deliberate Performance ($N=47$) and evaluated on Spontaneous Production test recordings ($N=46$ participants, 387 trials; within-subject pairing where both tasks are released). Actors and Non-actors subdivide the pooled Production test predictions without retraining.

@@ -1,0 +1,31 @@
+﻿area,area_abbreviation,hemisphere,index,channel,source,detector,percentage,balenced_percentage,weight,balenced_weight
+Dorsolateral prefrontal cortex,DLPFC,right,CH08,S3-D4,S3,D4,0.98,0.97,0.361623616,0.378167641
+Dorsolateral prefrontal cortex,DLPFC,right,CH10,S5-D4,S5,D4,0.9,0.825,0.332103321,0.321637427
+Dorsolateral prefrontal cortex,DLPFC,right,CH18,S8-D6,S8,D6,0.83,0.77,0.306273063,0.300194932
+Dorsolateral prefrontal cortex,DLPFC,left,CH42,S17-D13,S17,D13,0.96,0.97,0.396694215,0.378167641
+Dorsolateral prefrontal cortex,DLPFC,left,CH38,S15-D13,S15,D13,0.75,0.825,0.309917355,0.321637427
+Dorsolateral prefrontal cortex,DLPFC,left,CH33,S13-D11,S13,D11,0.71,0.77,0.29338843,0.300194932
+Frontopolar area,FPA,right,CH19,S8-D7,S8,D7,1,1,0.213675214,0.219538968
+Frontopolar area,FPA,right,CH20,S8-D9,S8,D9,0.93,0.91,0.198717949,0.199780461
+Frontopolar area,FPA,right,CH17,S8-D4,S8,D4,0.88,0.81,0.188034188,0.177826564
+Frontopolar area,FPA,right,CH14,S6-D7,S6,D7,0.68,0.725,0.145299145,0.159165752
+Frontopolar area,FPA,right,CH27,S11-D7,S11,D7,0.57,0.595,0.121794872,0.130625686
+Frontopolar area,FPA,right,CH13,S6-D4,S6,D4,0.62,0.515,0.132478632,0.113062569
+Frontopolar area,FPA,left,CH34,S13-D12,S13,D12,1,1,0.225733634,0.219538968
+Frontopolar area,FPA,left,CH32,S13-D9,S13,D9,0.89,0.91,0.200902935,0.199780461
+Frontopolar area,FPA,left,CH35,S13-D13,S13,D13,0.74,0.81,0.167042889,0.177826564
+Frontopolar area,FPA,left,CH39,S16-D12,S16,D12,0.77,0.725,0.173814898,0.159165752
+Frontopolar area,FPA,left,CH29,S11-D12,S11,D12,0.62,0.595,0.139954853,0.130625686
+Frontopolar area,FPA,left,CH40,S16-D13,S16,D13,0.41,0.515,0.09255079,0.113062569
+Inferior prefrontal gyrus,IFG,right,CH12,S6-D3,S6,D3,0.94,0.955,1,1
+Inferior prefrontal gyrus,IFG,left,CH41,S16-D14,S16,D14,0.97,0.955,1,1
+Inferior prefrontal gyrus,IFG,right,CH07,S3-D3,S3,D3,0.66,0.695,1,1
+Inferior prefrontal gyrus,IFG,left,CH43,S17-D14,S17,D14,0.73,0.695,1,1
+Middle Temporal gyrus,MTG,right,CH03,S2-D1,S2,D1,0.88,0.905,0.586666667,0.550151976
+Middle Temporal gyrus,MTG,right,CH05,S2-D3,S2,D3,0.62,0.74,0.413333333,0.449848024
+Middle Temporal gyrus,MTG,left,CH47,S18-D16,S18,D16,0.93,0.905,0.519553073,0.550151976
+Middle Temporal gyrus,MTG,left,CH45,S18-D14,S18,D14,0.86,0.74,0.480446927,0.449848024
+Superior Temporal Gyrus,STG,right,CH01,S1-D1,S1,D1,0.65,0.61,0.524193548,0.508333333
+Superior Temporal Gyrus,STG,right,CH04,S2-D2,S2,D2,0.59,0.59,0.475806452,0.491666667
+Superior Temporal Gyrus,STG,left,CH49,S19-D16,S19,D16,0.57,0.61,0.49137931,0.508333333
+Superior Temporal Gyrus,STG,left,CH46,S18-D15,S18,D15,0.59,0.59,0.50862069,0.491666667

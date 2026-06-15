@@ -1,0 +1,2 @@
+test,n_subjects,df_between,df_within,F,p,mean_Professional,mean_Amateur,mean_Non-actor
+one_way_anova,53,2,50,7.047603980003722,0.0020119217437821217,6.3394325657894735,8.370659722222221,18.31722861842105

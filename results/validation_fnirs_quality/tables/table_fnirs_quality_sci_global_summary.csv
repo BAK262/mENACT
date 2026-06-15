@@ -1,0 +1,6 @@
+row_type,comparison,comparison_label,n_subjects,p_value,method,task,cohort_mean_sci
+wilcoxon_global,perception_gt_production,Perception>Production,53,9.472660720381152e-10,wilcoxon_signed_rank_greater,,
+wilcoxon_global,production_gt_performance,Production>Performance,53,0.00016546839097966127,wilcoxon_signed_rank_greater,,
+cohort_mean,,,53,,,Perception,0.7796128512446324
+cohort_mean,,,53,,,Production,0.6106771207326266
+cohort_mean,,,53,,,Performance,0.5659184592163912

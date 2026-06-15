@@ -1,0 +1,32 @@
+# Conda environment for code/validation_speech.py (speech validation benchmarks).
+#
+# CPU stack (no NVIDIA): use this file as-is; HF models fall back to CPU unless you add CUDA torch.
+#
+# GPU (recommended for HuBERT feature extraction if recomputing frame features):
+#   After `conda env create -f environments/ee_validation_speech.yml`, install CUDA PyTorch, e.g.
+#     conda activate ee_validation_speech
+#     pip install --upgrade "torch>=2.6.0" --index-url https://download.pytorch.org/whl/cu124
+#
+# OpenSMILE eGeMAPS: bundled under code/utils/opensmile-3.0-win-x64 (Windows).
+# MP4 decode for eGeMAPS: ffmpeg from conda-forge (or system ffmpeg on PATH).
+
+name: ee_validation_speech
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - librosa
+  - libsndfile
+  - ffmpeg
+  - pip:
+      - torch>=2.6.0
+      - transformers
+      - protobuf
+      - opensmile

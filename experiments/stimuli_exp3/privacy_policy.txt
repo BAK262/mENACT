@@ -1,0 +1,14 @@
+Name processing:
+Replace real names in order of appearance.
+Man - 小明，小李，小张
+Woman - 小陈，小红，小丽
+
+Time processing:
+Unless there is a strong personal reference, there is no need to change it.
+
+Place processing:
+1. Prioritize blurring of place names.
+2. If it is not convenient to use method 1, then the southern city is changed to the north, and the west is changed to the east.
+
+Artwork name processing:
+Blurring treatment.

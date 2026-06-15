@@ -1,0 +1,33 @@
+name: ee_validation_fnirs_decoding
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.10.19
+  - pip=24.2
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.13.1
+  - scikit-learn=1.5.0
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - statsmodels=0.14.*
+
+  # Utilities
+  - pyyaml=6.0.*
+  - tqdm=4.66.*
+  - psutil=5.9.*
+  - loguru=0.7.*
+
+  # GPU / DL stack (pip-managed for CUDA wheels)
+  - pip:
+      # Install matching CUDA wheels from PyTorch index.
+      # NOTE: If your cluster uses a different CUDA runtime, switch cu118 -> cu124 accordingly.
+      - --index-url https://download.pytorch.org/whl/cu118
+      - torch==2.6.0+cu118
+      - torchvision==0.21.0+cu118
+      - torchaudio==2.6.0+cu118
+
+# Entry: code/validation_fnirs_decoding.py (task-wise LOSO attention MIL).

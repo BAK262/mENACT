@@ -1,8 +1,7 @@
 """
 HuBERT layer-11 frame extraction for validation_speech workflow.
 
-Replicates author-side ``speech_feature_extraction`` HuBERT settings used by
-``manuscript_analysis_speech``:
+Replicates author-side ``speech_feature_extraction`` HuBERT settings:
   - Model: TencentGameMate/chinese-hubert-base (``model_name=base``)
   - Layer: 11 (0-indexed encoder hidden state)
   - Audio: mono 16 kHz (ffmpeg decode from MP4, same as eGeMAPS cache)

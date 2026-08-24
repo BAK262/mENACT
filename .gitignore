@@ -37,8 +37,6 @@ results/**/*
 !results/validation_fnirs_quality/
 !results/validation_fnirs_decoding/
 
-results/manuscript_analysis_*/
-
 # --- validation_traits ---
 results/validation_traits/**/*
 !results/validation_traits/tables/
